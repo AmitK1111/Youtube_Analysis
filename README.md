@@ -13,4 +13,14 @@ This project focuses on building an end-to-end Data Engineering pipeline to inge
 5.Cloud Deployment: Offload heavy data processing tasks to the cloud using AWS to ensure performance, cost-effectiveness, and manageability.  
 6.Reporting: Build a dashboard using Amazon QuickSight to visualize key KPIs such as views, likes, trending categories, most engaging content, etc.
 
+| AWS Service           | Description                                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Amazon S3**         | Centralized object storage used as the data lake to store raw, processed, and curated datasets.                |
+| **AWS IAM**           | Securely manage user and service permissions across AWS services.                                              |
+| **AWS Glue**          | Serverless ETL service used to crawl, transform, and catalog datasets. Supports PySpark and Glue Data Catalog. |
+| **AWS Lambda**        | Event-driven compute service used to trigger data transformation and Glue workflows.                           |
+| **AWS Athena**        | Serverless interactive SQL query engine to analyze data directly in S3 without moving it.                      |
+| **Amazon QuickSight** | BI service used to build interactive dashboards and perform visual data exploration.                           |
+
+
 
