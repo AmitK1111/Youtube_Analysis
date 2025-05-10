@@ -27,7 +27,7 @@ This project focuses on building an end-to-end Data Engineering pipeline to inge
 **Workflow Architecture:**
 
             +-----------------+
-            |   Raw Data      |   <-- JSON/CSV from YouTube API, External sources
+            |   Raw Data      |   <-- JSON/CSV from Kaggle(Youtube Analysis Data), External sources
             +--------+--------+
                      |
                      v
@@ -53,5 +53,21 @@ This project focuses on building an end-to-end Data Engineering pipeline to inge
             +-----------------+
             | Amazon QuickSight|   <-- Dashboard Reporting
             +-----------------+
+
+**Key Features:**
+1.Fully serverless architecture using AWS services — no need to manage servers or clusters.  
+2.Supports structured and semi-structured data (CSV, JSON).  
+3.Modular and scalable ETL pipeline using AWS Glue and S3.  
+4.Secure access using AWS IAM policies and roles.  
+5.Near real-time or scheduled updates using AWS Lambda triggers.  
+6.Self-service analytics and visualizations using Amazon QuickSight.  
+
+**Prerequisites:**
+1.Before running or deploying this project, ensure:  
+2.An active AWS account with access to IAM, S3, Glue, Lambda, Athena, and QuickSight.  
+3.IAM roles with proper permissions for S3, Glue, and Lambda execution.  
+4.Data files (CSV/JSON) representing YouTube video metadata.  
+5.Basic understanding of AWS services and PySpark/SQL.  
+
 
 
