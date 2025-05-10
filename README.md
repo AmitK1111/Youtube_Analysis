@@ -6,8 +6,7 @@ This project focuses on building an end-to-end Data Engineering pipeline to inge
 
 Project Goals:
 
-1.Data Ingestion: Collect data from multiple structured and semi-structured sources, including JSON/CSV files representing YouTube video details and statistics.
-
+1.Data Ingestion: Collect data from multiple structured and semi-structured sources, including JSON/CSV files representing YouTube video details and statistics.  
 2.ETL System: Build a robust Extract-Transform-Load (ETL) process to clean, validate, and enrich the raw data into analytics-ready datasets.
 
 3.Data Lake Formation: Store all raw and transformed data in a centralized Amazon S3 data lake using well-defined folder partitions (raw, processed, curated zones).
@@ -17,3 +16,5 @@ Project Goals:
 5.Cloud Deployment: Offload heavy data processing tasks to the cloud using AWS to ensure performance, cost-effectiveness, and manageability.
 
 6.Reporting: Build a dashboard using Amazon QuickSight to visualize key KPIs such as views, likes, trending categories, most engaging content, etc.
+
+
