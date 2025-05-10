@@ -1,5 +1,6 @@
 # Data Engineering YouTube Analysis Project
 Domain: Data Engineering | Cloud Computing | Data Lake Architecture | AWS | BI Analytics
+
 Overview:
 This project focuses on building an end-to-end Data Engineering pipeline to ingest, transform, store, and analyze structured and semi-structured YouTube video data. The core objective is to efficiently manage video metadata and trending metrics, categorized by video topics, in a scalable and secure cloud environment. The end output is an interactive BI dashboard answering key analytical questions.
 Project Goals:
