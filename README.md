@@ -14,6 +14,7 @@ This project focuses on building an end-to-end Data Engineering pipeline to inge
 6.Reporting: Build a dashboard using Amazon QuickSight to visualize key KPIs such as views, likes, trending categories, most engaging content, etc.
 
 **Key Features:**
+
 1.Fully serverless architecture using AWS services — no need to manage servers or clusters.  
 2.Supports structured and semi-structured data (CSV, JSON).  
 3.Modular and scalable ETL pipeline using AWS Glue and S3.  
@@ -22,6 +23,7 @@ This project focuses on building an end-to-end Data Engineering pipeline to inge
 6.Self-service analytics and visualizations using Amazon QuickSight.  
 
 **Prerequisites:**
+
 1.Before running or deploying this project, ensure:  
 2.An active AWS account with access to IAM, S3, Glue, Lambda, Athena, and QuickSight.  
 3.IAM roles with proper permissions for S3, Glue, and Lambda execution.  
